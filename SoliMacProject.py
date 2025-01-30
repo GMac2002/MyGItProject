@@ -4,7 +4,7 @@
 
 #average func
 
-while (0 == 0):
+while (0 == 0): #written by Garrett McCarthy
     
     choice = input("Which operation do you prefer (A/S): ").upper() #receiving user input for desired operation
 
