@@ -1,3 +1,22 @@
+#written by Garrett McCarthy
+
+import numpy
+
+def mult(*args): #Function that produces the factor of all the user numbers multiplied
+    total = 1
+    
+    for x in args:
+        total *= x
+        
+    return total #Returns product
+
+def sub(*args): #Function that subtracts all numbers after the first number from the first number
+    
+    return args[0] - (sum(args[1:]))
+        
+def add(*args): #Function to find the sum of the users numbers
+    
+    return sum(args)
 
 #Written by Khalid Soliman
 
